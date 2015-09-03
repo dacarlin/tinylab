@@ -2,18 +2,18 @@ $fn=99;
 
 // base with wheel mount holes 
 difference() {
-  translate([0,0,-4]) cube([56,56,4], center=true); 
+  translate([0,0,-4]) cube([80,80,4], center=true); 
   for (i=[-1,1]) for (j=[-1,1]) {
-    translate([i*20,j*20,0]) cylinder( r=2.6, h=20, center=true ); 
+    translate([i*33,j*33,0]) cylinder( r=3.75, h=20, center=true ); 
     // cylinder( r=12, h=20, center=true ); 
   }
 } 
 
 // table mounts 
-for (i=[-1,1]) translate( [20*i, 0, 4] ) cylinder( r=3,h=12, center=true); 
-for (i=[-1,1]) translate( [0, 20*i, 4] ) cylinder( r=3,h=12, center=true); 
-for (i=[-1,1]) translate( [20*i, 0, 4] ) cylinder( r=2,h=16, center=true); 
-for (i=[-1,1]) translate( [0, 20*i, 4] ) cylinder( r=2,h=16, center=true); 
+for (i=[-1,1]) translate( [30*i, 0, 4] ) cylinder( r=3,h=12, center=true); 
+for (i=[-1,1]) translate( [0, 30*i, 4] ) cylinder( r=3,h=12, center=true); 
+for (i=[-1,1]) translate( [30*i, 0, 4] ) cylinder( r=2,h=16, center=true); 
+for (i=[-1,1]) translate( [0, 30*i, 4] ) cylinder( r=2,h=16, center=true); 
 
 // belt holds
 difference() { 
