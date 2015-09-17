@@ -1,0 +1,11 @@
+# To do list for cantilever robot 
+
+## Modifications to parts 
+
++ vertical part of z mount needs to be 11 mm thick 
++ home switch mount spacing needs to be 9.6 mm 
++ motor mounts need to be strengthened somehow
++ would be nice to use hull for the motor mounts to round the corners 
++ adjust spacing of screw holes in travelling nut mount to 40.5 mm
++ also probably completely include those holes 
++ need a new z home switch mount, center-center 22 mm 
