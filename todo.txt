@@ -4,6 +4,5 @@
 
 + vertical part of z mount needs to be 11 mm thick 
 + motor mounts need to be strengthened somehow
-+ adjust spacing of screw holes in travelling nut mount to 40.5 mm
 + also probably completely include those holes 
 + need a new z home switch mount, center-center 22 mm 
