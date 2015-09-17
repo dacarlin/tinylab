@@ -4,5 +4,3 @@
 
 + vertical part of z mount needs to be 11 mm thick 
 + motor mounts need to be strengthened somehow
-+ also probably completely include those holes 
-+ need a new z home switch mount, center-center 22 mm 
