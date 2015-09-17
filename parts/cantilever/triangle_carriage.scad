@@ -31,12 +31,12 @@ difference() {
 
 // belt holds
 difference() { 
-translate([6,0,3]) cube( [8,76,6], center=true ); 
-translate([6,0,3]) cube( [8,50,6], center=true ); 
-translate([6.25,0,3]) cube( [0.5,76,6], center=true ); 
+translate([7,0,3]) cube( [8,76,6], center=true ); 
+translate([7,0,3]) cube( [8,50,6], center=true ); 
+translate([7.25,0,3]) cube( [0.5,76,6], center=true ); 
   intersection() {
-    for (i=[-30:30]) translate( [6,i*2,3] ) cylinder( r=1,h=40,center=true ); 
-    translate([3,0,3]) cube( [6,76,6], center=true ); 
+    for (i=[-30:30]) translate( [7,i*2,3] ) cylinder( r=1,h=40,center=true ); 
+    translate([4,0,3]) cube( [7,76,6], center=true ); 
   }
 
 } 
