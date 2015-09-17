@@ -1,10 +1,10 @@
-$fn=100;
-
-// idler mounts
-
+$fn=99;
 difference() {
-    cube([40,52,6]); 
-    translate([20,10,0]) cylinder( r=2.6, h=20, center=true ); 
-    translate([4,20,-1]) cube([32,6,10]); 
-    translate([4,40,-1]) cube([32,6,10]); 
+    hull() {
+        translate([16,0,-2]) cube([24,40,4], center=true); 
+        cylinder( r=6, h=8, center=true ); 
+    }
+    cylinder( r=2.6, h=20, center=true ); 
+    translate([16,-10,0]) cube([6, 10, 10], center=true);
+    translate([16,-10,4]) cube([14, 20, 10], center=true);  
 }
