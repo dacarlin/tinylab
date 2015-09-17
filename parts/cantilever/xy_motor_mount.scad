@@ -12,6 +12,6 @@ difference() {
     translate([4,68,-1]) cube([12,6,10]); 
     
     // home switch mount 
-    translate([24,74,0]) cylinder( r=1, h=10, center=true ); 
+    translate([23.5,74,0]) cylinder( r=1, h=10, center=true ); 
     translate([32,74,0]) cylinder( r=1, h=10, center=true ); 
 }
