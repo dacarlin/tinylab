@@ -1,0 +1,4 @@
+.DS_Store
+*.stl
+*.gcode 
+.ipynb_checkpoints/

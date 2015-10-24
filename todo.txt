@@ -1,0 +1,6 @@
+# To do list for cantilever robot 
+
+## Modifications to parts 
+
++ vertical part of z mount needs to be 11 mm thick 
++ motor mounts need to be strengthened somehow
