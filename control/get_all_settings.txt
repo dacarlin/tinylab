@@ -1,0 +1,25 @@
+{"1":n}    return motor 1 settings
+{"2":n}
+{"3":n}
+{"4":n}
+{"x":n}    return X axis settings
+{"y":n}
+{"z":n}
+{"a":n}
+{"b":n}
+{"c":n}
+{"sys":n}  return system settings
+{"pos":n}  return work coordinate positions fox XYZABC axes. In mm or inches depending on G20/G21
+{"mpo":n}  return absolute machine positions fox XYZABC axes. Always in mm, regardless of G20/G21
+{"ofs":n}  return current offsets fox XYZABC axes. Sums coordinate system and G92 offsets. in mm.
+{"hom":n}  return homing state fox XYZABC axes, and 'e' for the entire machine. 1=homed, 0=not.
+{"p1":n}   return PWM channel 1 settings (currently there is only 1 PWM channel)
+{"g54":n}  return offsets for work coordinate system #1 (G54)
+{"g55":n}  #2
+{"g56":n}  #3
+{"g57":n}  #4
+{"g58":n}  #5
+{"g59":n}  #6
+{"g92":n}  return G92 offsets currently in effect
+{"g28":n}  return coordinate saved by G28 command
+{"g30":n}  return coordinate saved by G30 command
