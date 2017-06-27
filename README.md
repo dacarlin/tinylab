@@ -20,7 +20,7 @@ A open source design of a single-channel pipet affector module that can be built
 
 ### Much4: Cartesian Frame Bot 
 
-Open build from OpenBuilds.org showing a simple XY Cartesian bot that accepts our `pipet` design. 
+Open build from OpenBuilds.org ([Much4](http://www.openbuilds.com/threads/much4-a-printed-version-of-the-laser-v.547/)) showing a simple XY Cartesian bot that accepts our `pipet` design. 
 
 ### Jordan: Liquid Handler 
 
